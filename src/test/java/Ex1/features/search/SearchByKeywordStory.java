@@ -34,7 +34,8 @@ public class SearchByKeywordStory {
                 OpenResult.open()
         );
         anna.should(
-                seeThat(TheWebPage.title(),containsString("Mobile Web Testing - Appium"))
+
+                seeThat(TheWebPage.title(),containsString("Mobile Web Testingsss - Appium"))
         );
     }
 }
